@@ -13,13 +13,16 @@
  * Site header
  */
 .site-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-top: 5px solid;
   border-bottom: 1px solid;
   min-height: $base-font-size * 3;
   line-height: $base-font-size * 3;
 
   @include media-query($on-small) {
-    display: flex;
+    // Your existing media query styles
   }
 }
 
@@ -41,6 +44,7 @@
 
 .site-title {
   @include relative-font-size(1.625);
+  position: center;
   font-family: $handwriting-font-family;
   letter-spacing: -1px;
   margin-bottom: 0;
