@@ -5,7 +5,6 @@ description:
 type: 
 comments: True
 ---
-# C++
 
 ## Introduction
 C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". It has imperative, object-oriented, and generic programming features, while also providing facilities for low-level memory manipulation.
