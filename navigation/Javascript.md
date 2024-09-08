@@ -7,6 +7,9 @@ comments: True
 
 <table>
 <tbody>
+    <td>
+    <img src="/grouprepo_2025/images/codinglogo.png" height="60" title="Home" alt>>
+    <td>
     <td> 
     <a href="/grouprepo_2025/navigation/Python">Python</a>
      </td>
