@@ -1,6 +1,6 @@
 ---
 layout: base
-title:  Coding Languagues
+title: 
 description: Different types of coding languagues, and their benefits and downsides
 hide: true
 ---
