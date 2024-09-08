@@ -1,11 +1,31 @@
 ---
 layout: page
-title: Python
 description: 
 type: 
 comments: True
 ---
 
+<table>
+<tbody>
+    <td> 
+    <a href="/grouprepo_2025/navigation/Python">Python</a>
+     </td>
+     <td> 
+    <a href="/grouprepo_2025/navigation/C++">C++</a>
+     </td>
+     <td> 
+    <a href="/grouprepo_2025/navigation/Java">Java</a>
+     </td>
+     <td> 
+    <a href="/grouprepo_2025/navigation/Javascript">Javascript</a>
+     </td>
+      <td> 
+    <a href="/grouprepo_2025/navigation/Ruby">Ruby</a>
+     </td>
+     </tbody>
+</table>
+
+## Python
 ## Introduction
 Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace.
 

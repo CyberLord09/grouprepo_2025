@@ -1,10 +1,31 @@
 ---
 layout: page
-title: JavaScript
 description: 
 type: 
 comments: True
 ---
+
+<table>
+<tbody>
+    <td> 
+    <a href="/grouprepo_2025/navigation/Python">Python</a>
+     </td>
+     <td> 
+    <a href="/grouprepo_2025/navigation/C++">C++</a>
+     </td>
+     <td> 
+    <a href="/grouprepo_2025/navigation/Java">Java</a>
+     </td>
+     <td> 
+    <a href="/grouprepo_2025/navigation/Javascript">Javascript</a>
+     </td>
+      <td> 
+    <a href="/grouprepo_2025/navigation/Ruby">Ruby</a>
+     </td>
+     </tbody>
+</table>
+
+## Javascript
 
 ## Introduction
 JavaScript is a high-level, often just-in-time compiled, and multi-paradigm programming language. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.

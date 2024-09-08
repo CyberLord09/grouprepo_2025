@@ -1,10 +1,33 @@
 ---
 layout: page
-title: C++
 description: 
 type: 
 comments: True
 ---
+
+<table>
+<tbody>
+    <td> 
+    <a href="/grouprepo_2025/navigation/Python">Python</a>
+     </td>
+     <td> 
+    <a href="/grouprepo_2025/navigation/C++">C++</a>
+     </td>
+     <td> 
+    <a href="/grouprepo_2025/navigation/Java">Java</a>
+     </td>
+     <td> 
+    <a href="/grouprepo_2025/navigation/Javascript">Javascript</a>
+     </td>
+      <td> 
+    <a href="/grouprepo_2025/navigation/Ruby">Ruby</a>
+     </td>
+     </tbody>
+</table>
+
+
+
+## C++
 
 ## Introduction
 C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". It has imperative, object-oriented, and generic programming features, while also providing facilities for low-level memory manipulation.
