@@ -1,10 +1,30 @@
 ---
 layout: page
-title: Ruby
 description: 
 type: 
 comments: True
 ---
+<table>
+<tbody>
+    <td> 
+    <a href="/grouprepo_2025/navigation/Python">Python</a>
+     </td>
+     <td> 
+    <a href="/grouprepo_2025/navigation/C++">C++</a>
+     </td>
+     <td> 
+    <a href="/grouprepo_2025/navigation/Java">Java</a>
+     </td>
+     <td> 
+    <a href="/grouprepo_2025/navigation/Javascript">Javascript</a>
+     </td>
+      <td> 
+    <a href="/grouprepo_2025/navigation/Ruby">Ruby</a>
+     </td>
+     </tbody>
+</table>
+
+## Ruby
 
 ## Introduction
 Ruby is an interpreted, high-level, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan. Ruby is dynamically typed and uses garbage collection.

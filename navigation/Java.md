@@ -1,10 +1,31 @@
 ---
 layout: page
-title: Java
 description: 
 type: 
 comments: True
 ---
+
+<table>
+<tbody>
+    <td> 
+    <a href="/grouprepo_2025/navigation/Python">Python</a>
+     </td>
+     <td> 
+    <a href="/grouprepo_2025/navigation/C++">C++</a>
+     </td>
+     <td> 
+    <a href="/grouprepo_2025/navigation/Java">Java</a>
+     </td>
+     <td> 
+    <a href="/grouprepo_2025/navigation/Javascript">Javascript</a>
+     </td>
+      <td> 
+    <a href="/grouprepo_2025/navigation/Ruby">Ruby</a>
+     </td>
+     </tbody>
+</table>
+
+## Java
 
 ## Introduction
 Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let application developers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.
