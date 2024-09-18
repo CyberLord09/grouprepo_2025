@@ -44,35 +44,37 @@ Java was originally developed by James Gosling at Sun Microsystems (which has si
 <br>
 <br>
 
-<button id="jokeButton">Get a Random Accounting Joke</button>
-<p id="jokeDisplay"></p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Facts</title>
+</head>
+<body>
+    <h1>Random Java Fact</h1>
+    <button id="factButton">Show Random Fact</button>
+    <p id="randomfactdisplay"></p>
 
-<script> 
-  var accounting_joke_list = [
-      "Why did the accountant cross the road? To bore the people on the other side.",
-      "What do accountants do when they're constipated? They work it out with a pencil.",
-      "Why don't accountants read novels? Because the only numbers in them are page numbers.",
-      "How does an accountant stay out of debt? He learns to act his wage.",
-      "Why did the accountant break up with the calculator? It couldn't handle his complex calculations.",
-      "Why did the accountant stare at his glass of orange juice for three hours? Because on the box it said 'concentrate'.",
-      "Why did the accountant bring a ladder to work? To reach the high interest rates.",
-      "Why did the accountant get promoted? Because he knew how to balance his work and play.",
-      "Why did the accountant go broke? Because he lost his balance.",
-      "Why did the accountant get a job at the bakery? Because he was good at making dough.",
-      "Why did the accountant get a job at the zoo? Because he was good with cheetahs.",
-      "Why did the accountant get a job at the bank? Because he was good at counting on it.",
-      "Why did the accountant get a job at the library? Because he was good at keeping books.",
-      "Why did the accountant get a job at the circus? Because he was good at juggling numbers.",
-      "Why did the accountant get a job at the restaurant? Because he was good at serving up the numbers.",
-      "Why did the accountant get a job at the gym? Because he was good at working out the numbers.",
-      "Why did the accountant get a job at the hospital? Because he was good at taking care of the accounts.",
-      "Why did the accountant get a job at the school? Because he was good at teaching the numbers.",
-      "Why did the accountant get a job at the farm? Because he was good at counting the chickens before they hatched."
-  ]
-    function displayRandomJoke() {
-        var randomIndex = Math.floor(Math.random() * accounting_joke_list.length);
-        document.getElementById("jokeDisplay").innerText = "Joke #" + (randomIndex + 1) + ": " + accounting_joke_list[randomIndex];
-    }
+    <script>
+        var java_fact_list = [
+            "Java was originally developed by James Gosling at Sun Microsystems and released in 1995.",
+            "Java is designed to have as few implementation dependencies as possible.",
+            "Java applications are typically compiled to bytecode that can run on any Java Virtual Machine (JVM).",
+            "Java is one of the most popular programming languages in use, particularly for client-server web applications.",
+            "The syntax of Java is largely influenced by C++ and C.",
+            "Java is known for its portability across platforms, from mainframe data centers to smartphones.",
+            "Java has a rich API and a vast ecosystem of libraries and frameworks.",
+            "Java supports multithreading, which allows concurrent execution of two or more threads.",
+            "Java has built-in garbage collection to manage memory automatically.",
+            "Java's 'write once, run anywhere' philosophy makes it a versatile choice for developers."
+        ];
 
-    document.getElementById("jokeButton").addEventListener("click", displayRandomJoke);
-</script>
+        function displayRandomFact() {
+            var randomIndex = Math.floor(Math.random() * java_fact_list.length);
+            document.getElementById("randomfactdisplay").innerText = "Fact " + (randomIndex + 1) + ": " + java_fact_list[randomIndex];
+        }
+
+        document.getElementById("factButton").addEventListener("click", displayRandomFact);
+    </script>
+</body>
+</html>

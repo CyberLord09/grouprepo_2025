@@ -45,35 +45,38 @@ C++ was developed by Bjarne Stroustrup at Bell Labs starting in 1979. The langua
 <br>
 <br>
 
-<button id="jokeButton">Get a Random Accounting Joke</button>
-<p id="jokeDisplay"></p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ Facts</title>
+</head>
+<body>
+    <h1>Random C++ Fact</h1>
+    <button id="factButton">Show Random Fact</button>
+    <p id="randomfactdisplay"></p>
 
-<script> 
-  var accounting_joke_list = [
-      "Why did the accountant cross the road? To bore the people on the other side.",
-      "What do accountants do when they're constipated? They work it out with a pencil.",
-      "Why don't accountants read novels? Because the only numbers in them are page numbers.",
-      "How does an accountant stay out of debt? He learns to act his wage.",
-      "Why did the accountant break up with the calculator? It couldn't handle his complex calculations.",
-      "Why did the accountant stare at his glass of orange juice for three hours? Because on the box it said 'concentrate'.",
-      "Why did the accountant bring a ladder to work? To reach the high interest rates.",
-      "Why did the accountant get promoted? Because he knew how to balance his work and play.",
-      "Why did the accountant go broke? Because he lost his balance.",
-      "Why did the accountant get a job at the bakery? Because he was good at making dough.",
-      "Why did the accountant get a job at the zoo? Because he was good with cheetahs.",
-      "Why did the accountant get a job at the bank? Because he was good at counting on it.",
-      "Why did the accountant get a job at the library? Because he was good at keeping books.",
-      "Why did the accountant get a job at the circus? Because he was good at juggling numbers.",
-      "Why did the accountant get a job at the restaurant? Because he was good at serving up the numbers.",
-      "Why did the accountant get a job at the gym? Because he was good at working out the numbers.",
-      "Why did the accountant get a job at the hospital? Because he was good at taking care of the accounts.",
-      "Why did the accountant get a job at the school? Because he was good at teaching the numbers.",
-      "Why did the accountant get a job at the farm? Because he was good at counting the chickens before they hatched."
-  ]
-    function displayRandomJoke() {
-        var randomIndex = Math.floor(Math.random() * accounting_joke_list.length);
-        document.getElementById("jokeDisplay").innerText = "Joke #" + (randomIndex + 1) + ": " + accounting_joke_list[randomIndex];
-    }
+    <script>
+        var cpp_fact_list = [
+            "C++ supports multiple inheritance, which means a class can inherit from more than one base class.",
+            "C++ has been standardized by ISO since 1998 with many updates, the latest being C++20.",
+            "C++ provides direct memory manipulation via pointers, giving developers more control over hardware resources.",
+            "C++ was originally named 'C with Classes' before being renamed to C++ in 1983.",
+            "C++ has a rich standard library that includes data structures, algorithms, and input/output functions.",
+            "C++ is used to develop performance-critical applications, including operating systems and real-time systems.",
+            "Despite being decades old, C++ remains one of the top programming languages worldwide.",
+            "C++'s template feature allows writing generic functions and classes, making the code reusable and efficient.",
+            "The STL (Standard Template Library) in C++ includes implementations of common data structures like vectors and sets.",
+            "C++ supports both dynamic and static polymorphism through virtual functions and function overloading.",
+            "C++ is a statically typed language, meaning variable types are checked at compile time."
+        ];
 
-    document.getElementById("jokeButton").addEventListener("click", displayRandomJoke);
-</script>
+        function displayRandomFact() {
+            var randomIndex = Math.floor(Math.random() * cpp_fact_list.length);
+            document.getElementById("randomfactdisplay").innerText = "Fact " + (randomIndex + 1) + ": " + cpp_fact_list[randomIndex];
+        }
+
+        document.getElementById("factButton").addEventListener("click", displayRandomFact);
+    </script>
+</body>
+</html>
